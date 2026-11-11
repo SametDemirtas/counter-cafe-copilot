@@ -1,5 +1,11 @@
 # Counter
 
+![Counter: the morning note, a question answered from the café's own figures, and a price change waiting for the owner's approval](docs/media/demo.gif)
+
+*The morning note, two questions answered from the café's own data, and a
+suggested price change the owner approves. Recorded in the offline demo mode,
+which needs no API key.*
+
 Counter is a co-pilot for a small café owner. The owner asks a question in
 plain words ("is my tomato supplier overcharging me?") and gets an answer built
 from the café's own sales, menu, rota, supplier invoice and reviews. A language
