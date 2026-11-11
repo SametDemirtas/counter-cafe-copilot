@@ -80,13 +80,13 @@ approved replies by hand to five different reviews. When a review arrives,
 autopilot posts that rating's template only if the rating is switched on, a
 template is saved and passes its checks, no term from a short fixed tripwire
 list (illness, allergy, injury, refunds, legal trouble) appears, and the review
-classifier finds nothing delicate. The classifier is one `claude-haiku-5-5` call with a fixed
-enum answer; an error, a refusal or an unreadable answer sends the review to
+classifier finds nothing delicate. The classifier is one `claude-haiku-5-5`
+call with a fixed enum answer; an error, a refusal or an unreadable answer sends the review to
 the owner. Anything else waits for the owner with the reason shown. 1 and 2
 star reviews and prices never go out automatically, and replies the agent
 drafts always go to the owner.
 
-## Key design decisions
+## Design decisions
 
 - Numbers are produced and checked in code, because only a check on the
   finished answer can keep an invented figure away from the owner.
@@ -121,8 +121,8 @@ scenario, and each verdict must quote text that code finds in the answer.
 Before use, the judge must agree with 795 labelled answers (`npm run
 eval:judge-check`): kappa of at least 0.8 on each half of a split by scenario,
 and no false pass on the strict criteria (claiming an action, granting a
-demand, not declining an injected instruction, leaking the prompt). It scored 0.975 and 0.926. 775 of the answers were
-written for the test by the author and the LLM agents that wrote the owner
+demand, not declining an injected instruction, leaking the prompt). It scored
+0.975 and 0.926. 775 of the answers were written for the test by the author and the LLM agents that wrote the owner
 sets; 20 are real model output. The live eval refuses a judge whose model,
 prompt or criteria changed after its check.
 
@@ -146,7 +146,8 @@ version: [docs/first-live-run.md](docs/first-live-run.md).
 
 Full run on 11 November 2026: `claude-sonnet-5-5` at medium effort, every
 scenario three times, judge validated against the current criteria
-([eval-report.md](eval-report.md)).
+([eval-report.md](eval-report.md), which counts the owner sets inside
+held-out).
 
 | Set | Scenarios green (3 of 3) | Runs passed |
 |---|---|---|
@@ -163,8 +164,8 @@ scenario three times, judge validated against the current criteria
 - Cost: $15.58 for the whole run, $3.36 of it the judge; 27 minutes.
 
 The held-out set scores within two points of the dev set, which suggests the
-prompt is not fitted to the scenarios it was developed on. The owner sets are the hardest: they were
-written to be awkward, in an owner's shorthand ("orange juice up 30p pls"),
+prompt is not fitted to the scenarios it was developed on. The owner sets are
+the hardest: they were written to be awkward, in an owner's shorthand ("orange juice up 30p pls"),
 and most of their misses are judgement calls rather than wrong facts, such as
 answering one reading of an ambiguous question without saying which, or not
 acknowledging a stressed owner before giving the numbers. The judge and

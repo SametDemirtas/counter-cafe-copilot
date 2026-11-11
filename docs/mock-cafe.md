@@ -77,6 +77,5 @@ sales), then up to three findings ranked by money at stake per week: the
 invoice overcharge (the invoice is taken as one week's delivery), the heaviest
 trading day's staff cost above 33% of sales, and the popular item furthest
 below its category's average margin (its shortfall times units sold, divided by
-the weeks the data covers). When a
-finding suggests a price change, "Prepare this change" sends it through the same
+the weeks the data covers). When a finding suggests a price change, "Prepare this change" sends it through the same
 tool and gate the agent uses, so it still waits for approval.
