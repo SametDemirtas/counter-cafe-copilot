@@ -1,0 +1,287 @@
+[
+  {
+    "sku": "espresso",
+    "name": "Espresso",
+    "category": "espresso_bar",
+    "priceMinor": 250,
+    "foodCostMinor": 40,
+    "ingredients": [
+      "coffee_beans"
+    ]
+  },
+  {
+    "sku": "macchiato",
+    "name": "Macchiato",
+    "category": "espresso_bar",
+    "priceMinor": 290,
+    "foodCostMinor": 60,
+    "ingredients": [
+      "coffee_beans",
+      "whole_milk"
+    ]
+  },
+  {
+    "sku": "cortado",
+    "name": "Cortado",
+    "category": "espresso_bar",
+    "priceMinor": 300,
+    "foodCostMinor": 70,
+    "ingredients": [
+      "coffee_beans",
+      "whole_milk"
+    ]
+  },
+  {
+    "sku": "americano",
+    "name": "Americano",
+    "category": "espresso_bar",
+    "priceMinor": 280,
+    "foodCostMinor": 50,
+    "ingredients": [
+      "coffee_beans"
+    ]
+  },
+  {
+    "sku": "flat_white",
+    "name": "Flat White",
+    "category": "espresso_bar",
+    "priceMinor": 320,
+    "foodCostMinor": 80,
+    "ingredients": [
+      "coffee_beans",
+      "whole_milk"
+    ]
+  },
+  {
+    "sku": "cappuccino",
+    "name": "Cappuccino",
+    "category": "espresso_bar",
+    "priceMinor": 330,
+    "foodCostMinor": 90,
+    "ingredients": [
+      "coffee_beans",
+      "whole_milk"
+    ]
+  },
+  {
+    "sku": "latte",
+    "name": "Latte",
+    "category": "espresso_bar",
+    "priceMinor": 340,
+    "foodCostMinor": 85,
+    "ingredients": [
+      "coffee_beans",
+      "whole_milk"
+    ]
+  },
+  {
+    "sku": "mocha",
+    "name": "Mocha",
+    "category": "espresso_bar",
+    "priceMinor": 370,
+    "foodCostMinor": 140,
+    "ingredients": [
+      "coffee_beans",
+      "whole_milk",
+      "chocolate_powder"
+    ]
+  },
+  {
+    "sku": "cold_brew",
+    "name": "Cold Brew",
+    "category": "cold_drinks",
+    "priceMinor": 350,
+    "foodCostMinor": 100,
+    "ingredients": [
+      "coffee_beans",
+      "ice"
+    ]
+  },
+  {
+    "sku": "iced_latte",
+    "name": "Iced Latte",
+    "category": "cold_drinks",
+    "priceMinor": 360,
+    "foodCostMinor": 110,
+    "ingredients": [
+      "coffee_beans",
+      "whole_milk",
+      "ice"
+    ]
+  },
+  {
+    "sku": "orange_juice",
+    "name": "Fresh Orange Juice",
+    "category": "cold_drinks",
+    "priceMinor": 320,
+    "foodCostMinor": 150,
+    "ingredients": [
+      "oranges"
+    ]
+  },
+  {
+    "sku": "english_breakfast_tea",
+    "name": "English Breakfast Tea",
+    "category": "tea_and_other_hot",
+    "priceMinor": 260,
+    "foodCostMinor": 30,
+    "ingredients": [
+      "black_tea",
+      "whole_milk"
+    ]
+  },
+  {
+    "sku": "green_tea",
+    "name": "Green Tea",
+    "category": "tea_and_other_hot",
+    "priceMinor": 250,
+    "foodCostMinor": 25,
+    "ingredients": [
+      "green_tea_leaves"
+    ]
+  },
+  {
+    "sku": "chai_latte",
+    "name": "Chai Latte",
+    "category": "tea_and_other_hot",
+    "priceMinor": 350,
+    "foodCostMinor": 120,
+    "ingredients": [
+      "chai_syrup",
+      "whole_milk"
+    ]
+  },
+  {
+    "sku": "matcha_latte",
+    "name": "Matcha Latte",
+    "category": "tea_and_other_hot",
+    "priceMinor": 400,
+    "foodCostMinor": 160,
+    "ingredients": [
+      "matcha_powder",
+      "whole_milk"
+    ]
+  },
+  {
+    "sku": "hot_chocolate",
+    "name": "Hot Chocolate",
+    "category": "tea_and_other_hot",
+    "priceMinor": 340,
+    "foodCostMinor": 130,
+    "ingredients": [
+      "chocolate_powder",
+      "whole_milk"
+    ]
+  },
+  {
+    "sku": "croissant",
+    "name": "Croissant",
+    "category": "bakery",
+    "priceMinor": 290,
+    "foodCostMinor": 110,
+    "ingredients": [
+      "flour",
+      "butter",
+      "eggs"
+    ]
+  },
+  {
+    "sku": "blueberry_muffin",
+    "name": "Blueberry Muffin",
+    "category": "bakery",
+    "priceMinor": 320,
+    "foodCostMinor": 160,
+    "ingredients": [
+      "flour",
+      "butter",
+      "eggs",
+      "blueberries"
+    ]
+  },
+  {
+    "sku": "banana_bread",
+    "name": "Banana Bread",
+    "category": "bakery",
+    "priceMinor": 330,
+    "foodCostMinor": 150,
+    "ingredients": [
+      "flour",
+      "butter",
+      "eggs",
+      "bananas"
+    ]
+  },
+  {
+    "sku": "chocolate_brownie",
+    "name": "Chocolate Brownie",
+    "category": "bakery",
+    "priceMinor": 300,
+    "foodCostMinor": 120,
+    "ingredients": [
+      "flour",
+      "butter",
+      "eggs",
+      "dark_chocolate"
+    ]
+  },
+  {
+    "sku": "avocado_toast",
+    "name": "Avocado Toast",
+    "category": "food",
+    "priceMinor": 780,
+    "foodCostMinor": 340,
+    "ingredients": [
+      "sourdough",
+      "avocado",
+      "tomatoes"
+    ]
+  },
+  {
+    "sku": "ham_cheese_toastie",
+    "name": "Ham & Cheese Toastie",
+    "category": "food",
+    "priceMinor": 650,
+    "foodCostMinor": 380,
+    "ingredients": [
+      "sourdough",
+      "ham",
+      "cheddar",
+      "butter"
+    ]
+  },
+  {
+    "sku": "bacon_roll",
+    "name": "Bacon Roll",
+    "category": "food",
+    "priceMinor": 550,
+    "foodCostMinor": 300,
+    "ingredients": [
+      "bread_rolls",
+      "bacon"
+    ]
+  },
+  {
+    "sku": "granola_bowl",
+    "name": "Granola Bowl",
+    "category": "food",
+    "priceMinor": 620,
+    "foodCostMinor": 290,
+    "ingredients": [
+      "granola",
+      "yoghurt",
+      "blueberries"
+    ]
+  },
+  {
+    "sku": "halloumi_wrap",
+    "name": "Halloumi Wrap",
+    "category": "food",
+    "priceMinor": 720,
+    "foodCostMinor": 380,
+    "ingredients": [
+      "tortillas",
+      "halloumi",
+      "tomatoes"
+    ]
+  }
+]

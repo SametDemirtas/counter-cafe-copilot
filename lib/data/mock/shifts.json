@@ -1,0 +1,717 @@
+{
+  "currency": "GBP",
+  "days": [
+    {
+      "date": "2026-10-12",
+      "dayOfWeek": "Monday",
+      "salesMinor": 0,
+      "transactions": 0,
+      "shifts": []
+    },
+    {
+      "date": "2026-10-13",
+      "dayOfWeek": "Tuesday",
+      "salesMinor": 91200,
+      "transactions": 114,
+      "note": "Priya on holiday until Friday. Josh stayed on to close.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 8100
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 7350
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 6000
+        },
+        {
+          "staff": "Josh",
+          "slot": "evening",
+          "costMinor": 6125
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "dayOfWeek": "Wednesday",
+      "salesMinor": 87400,
+      "transactions": 109,
+      "note": "Priya still away. Hannah covered the close.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 8100
+        },
+        {
+          "staff": "Callum",
+          "slot": "morning",
+          "costMinor": 7200
+        },
+        {
+          "staff": "Josh",
+          "slot": "evening",
+          "costMinor": 6125
+        },
+        {
+          "staff": "Hannah",
+          "slot": "evening",
+          "costMinor": 6750
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "dayOfWeek": "Thursday",
+      "salesMinor": 95100,
+      "transactions": 117,
+      "note": "Last day of holiday cover. Callum worked through to close.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 8100
+        },
+        {
+          "staff": "Callum",
+          "slot": "morning",
+          "costMinor": 7200
+        },
+        {
+          "staff": "Josh",
+          "slot": "evening",
+          "costMinor": 6125
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 6000
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "dayOfWeek": "Friday",
+      "salesMinor": 138600,
+      "transactions": 160,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 10800
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 9800
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 10200
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 9600
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "dayOfWeek": "Saturday",
+      "salesMinor": 172400,
+      "transactions": 196,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 13500
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 12250
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 12750
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 12000
+        }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "dayOfWeek": "Sunday",
+      "salesMinor": 154200,
+      "transactions": 175,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 11475
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 10413
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 10838
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 10200
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "dayOfWeek": "Monday",
+      "salesMinor": 0,
+      "transactions": 0,
+      "shifts": []
+    },
+    {
+      "date": "2026-10-20",
+      "dayOfWeek": "Tuesday",
+      "salesMinor": 93800,
+      "transactions": 117,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 8100
+        },
+        {
+          "staff": "Priya",
+          "slot": "morning",
+          "costMinor": 7650
+        },
+        {
+          "staff": "Josh",
+          "slot": "evening",
+          "costMinor": 6125
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 6000
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "dayOfWeek": "Wednesday",
+      "salesMinor": 70200,
+      "transactions": 88,
+      "note": "Heavy rain all day. Dead after the school run and hardly anyone sat in.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 8100
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 7350
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 6375
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 6000
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "dayOfWeek": "Thursday",
+      "salesMinor": 98600,
+      "transactions": 122,
+      "note": "Josh off sick. Callum did a double to cover.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 8100
+        },
+        {
+          "staff": "Callum",
+          "slot": "morning",
+          "costMinor": 7200
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 6375
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 6000
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "dayOfWeek": "Friday",
+      "salesMinor": 141200,
+      "transactions": 163,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 10800
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 9800
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 10200
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 9600
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "dayOfWeek": "Saturday",
+      "salesMinor": 176800,
+      "transactions": 199,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 13500
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 12250
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 12750
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 12000
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "dayOfWeek": "Sunday",
+      "salesMinor": 159600,
+      "transactions": 180,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 11475
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 10413
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 10838
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 10200
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "dayOfWeek": "Monday",
+      "salesMinor": 0,
+      "transactions": 0,
+      "shifts": []
+    },
+    {
+      "date": "2026-10-27",
+      "dayOfWeek": "Tuesday",
+      "salesMinor": 126400,
+      "transactions": 160,
+      "note": "Half-term started. Families in from mid-morning, kept everyone on longer.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 9450
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 8575
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 8925
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 8400
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "dayOfWeek": "Wednesday",
+      "salesMinor": 131800,
+      "transactions": 167,
+      "note": "Half-term. Queue out the door at lunch.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 9450
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 8575
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 8925
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 8400
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "dayOfWeek": "Thursday",
+      "salesMinor": 128700,
+      "transactions": 163,
+      "note": "Half-term. Busy with families again.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 9450
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 8575
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 8925
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 8400
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "dayOfWeek": "Friday",
+      "salesMinor": 164200,
+      "transactions": 192,
+      "note": "Last day of half-term.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 11475
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 10413
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 10838
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 10200
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "dayOfWeek": "Saturday",
+      "salesMinor": 196000,
+      "transactions": 222,
+      "note": "Halloween. Fancy dress all afternoon, busiest Saturday in weeks.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 13500
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 12250
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 12750
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 12000
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "dayOfWeek": "Sunday",
+      "salesMinor": 166500,
+      "transactions": 189,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 11475
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 10413
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 10838
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 10200
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "dayOfWeek": "Monday",
+      "salesMinor": 0,
+      "transactions": 0,
+      "shifts": []
+    },
+    {
+      "date": "2026-11-03",
+      "dayOfWeek": "Tuesday",
+      "salesMinor": 96400,
+      "transactions": 121,
+      "note": "Rota had all four on long shifts. Far too many hands for a quiet day.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 10125
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 9188
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 9563
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 9000
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "dayOfWeek": "Wednesday",
+      "salesMinor": 101200,
+      "transactions": 126,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 8100
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 7350
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 6375
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 6000
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "dayOfWeek": "Thursday",
+      "salesMinor": 104700,
+      "transactions": 128,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 8100
+        },
+        {
+          "staff": "Priya",
+          "slot": "morning",
+          "costMinor": 7650
+        },
+        {
+          "staff": "Josh",
+          "slot": "evening",
+          "costMinor": 6125
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 6000
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "dayOfWeek": "Friday",
+      "salesMinor": 148300,
+      "transactions": 171,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 10800
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 9800
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 10200
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 9600
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "dayOfWeek": "Saturday",
+      "salesMinor": 187300,
+      "transactions": 212,
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 13500
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 12250
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 12750
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 12000
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "dayOfWeek": "Sunday",
+      "salesMinor": 0,
+      "transactions": 0,
+      "note": "Till down all day. Took cards on the standalone reader, which gives one total and nothing by item, so none of the day's sales are on the till.",
+      "shifts": [
+        {
+          "staff": "Hannah",
+          "slot": "morning",
+          "costMinor": 11475
+        },
+        {
+          "staff": "Josh",
+          "slot": "morning",
+          "costMinor": 10413
+        },
+        {
+          "staff": "Priya",
+          "slot": "evening",
+          "costMinor": 10838
+        },
+        {
+          "staff": "Callum",
+          "slot": "evening",
+          "costMinor": 10200
+        }
+      ]
+    }
+  ]
+}

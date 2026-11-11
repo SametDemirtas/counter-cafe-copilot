@@ -1,0 +1,106 @@
+{
+  "supplier": "Green Grocer Ltd",
+  "invoiceId": "INV-2026-114",
+  "currency": "GBP",
+  "lines": [
+    {
+      "item": "Tomatoes (kg)",
+      "agreedUnitPriceMinor": 180,
+      "invoicedUnitPriceMinor": 212,
+      "quantity": 10,
+      "supplies": {
+        "via": "recipe",
+        "stock": "tomatoes"
+      }
+    },
+    {
+      "item": "Avocado (each)",
+      "agreedUnitPriceMinor": 60,
+      "invoicedUnitPriceMinor": 60,
+      "quantity": 40,
+      "supplies": {
+        "via": "recipe",
+        "stock": "avocado"
+      }
+    },
+    {
+      "item": "Oat milk (L)",
+      "agreedUnitPriceMinor": 140,
+      "invoicedUnitPriceMinor": 150,
+      "quantity": 12,
+      "supplies": {
+        "via": "option",
+        "modifier": "Oat milk"
+      }
+    },
+    {
+      "item": "Whole milk (L)",
+      "agreedUnitPriceMinor": 90,
+      "invoicedUnitPriceMinor": 95,
+      "quantity": 30,
+      "supplies": {
+        "via": "recipe",
+        "stock": "whole_milk"
+      }
+    },
+    {
+      "item": "Coffee beans (kg)",
+      "agreedUnitPriceMinor": 2200,
+      "invoicedUnitPriceMinor": 2200,
+      "quantity": 5,
+      "supplies": {
+        "via": "recipe",
+        "stock": "coffee_beans"
+      }
+    },
+    {
+      "item": "Sourdough loaf (each)",
+      "agreedUnitPriceMinor": 320,
+      "invoicedUnitPriceMinor": 360,
+      "quantity": 6,
+      "supplies": {
+        "via": "recipe",
+        "stock": "sourdough"
+      }
+    },
+    {
+      "item": "Free-range eggs (dozen)",
+      "agreedUnitPriceMinor": 280,
+      "invoicedUnitPriceMinor": 300,
+      "quantity": 6,
+      "supplies": {
+        "via": "recipe",
+        "stock": "eggs"
+      }
+    },
+    {
+      "item": "Butter (kg)",
+      "agreedUnitPriceMinor": 700,
+      "invoicedUnitPriceMinor": 680,
+      "quantity": 4,
+      "supplies": {
+        "via": "recipe",
+        "stock": "butter"
+      }
+    },
+    {
+      "item": "Flour (kg)",
+      "agreedUnitPriceMinor": 120,
+      "invoicedUnitPriceMinor": 120,
+      "quantity": 8,
+      "supplies": {
+        "via": "recipe",
+        "stock": "flour"
+      }
+    },
+    {
+      "item": "Delivery surcharge",
+      "agreedUnitPriceMinor": 0,
+      "invoicedUnitPriceMinor": 250,
+      "quantity": 1,
+      "supplies": {
+        "via": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Least privilege: the job only reads the checked-out code. It never needs to
+# write to the repo, so no token is granted that could.
+permissions:
+  contents: read
+
+# A newer push to the same ref cancels an in-flight run for it.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        # The floor the package supports (engines: ">=20") and a current LTS.
+        node-version: ["20", "22"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      # Includes the scripted eval suite (tests/eval/harness.test.ts), so it is
+      # not run a second time with npm run eval.
+      - run: npm run test:coverage

@@ -1,0 +1,123 @@
+{
+  "model": "claude-haiku-5-5",
+  "promptHash": "d53733f4b650a839",
+  "dryRun": false,
+  "cases": 50,
+  "system": {
+    "delicate": 30,
+    "caught": 30,
+    "flagged": 31,
+    "misses": 0,
+    "falseHolds": 1,
+    "recall": 1,
+    "precision": 0.967741935483871
+  },
+  "classifier": {
+    "delicate": 30,
+    "caught": 30,
+    "flagged": 31,
+    "misses": 0,
+    "falseHolds": 1,
+    "recall": 1,
+    "precision": 0.967741935483871
+  },
+  "classifierDecided": {
+    "delicate": 20,
+    "caught": 20,
+    "flagged": 21,
+    "misses": 0,
+    "falseHolds": 1,
+    "recall": 1,
+    "precision": 0.9523809523809523
+  },
+  "errors": 0,
+  "byLanguage": [
+    {
+      "language": "en",
+      "cases": 20,
+      "errors": 0,
+      "delicate": 14,
+      "caught": 14,
+      "flagged": 14,
+      "misses": 0,
+      "falseHolds": 0,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "language": "de",
+      "cases": 10,
+      "errors": 0,
+      "delicate": 5,
+      "caught": 5,
+      "flagged": 6,
+      "misses": 0,
+      "falseHolds": 1,
+      "recall": 1,
+      "precision": 0.8333333333333334
+    },
+    {
+      "language": "tr",
+      "cases": 10,
+      "errors": 0,
+      "delicate": 5,
+      "caught": 5,
+      "flagged": 5,
+      "misses": 0,
+      "falseHolds": 0,
+      "recall": 1,
+      "precision": 1
+    },
+    {
+      "language": "es",
+      "cases": 10,
+      "errors": 0,
+      "delicate": 6,
+      "caught": 6,
+      "flagged": 6,
+      "misses": 0,
+      "falseHolds": 0,
+      "recall": 1,
+      "precision": 1
+    }
+  ],
+  "missed": [],
+  "falseHolds": [
+    {
+      "id": "de-10",
+      "language": "de",
+      "rating": 4,
+      "text": "Ganz okay, Kaffee solide.",
+      "tags": [
+        "neutral"
+      ],
+      "labelDelicate": false,
+      "outcome": {
+        "status": "ok",
+        "verdict": {
+          "delicate": true,
+          "reasons": [
+            "other"
+          ],
+          "language": "de"
+        },
+        "model": "claude-haiku-5-5",
+        "promptHash": "d53733f4b650a839"
+      },
+      "tripwire": {
+        "hit": false,
+        "terms": []
+      },
+      "routed": "owner",
+      "rule": "delicate"
+    }
+  ],
+  "erroredCases": [],
+  "usage": {
+    "inputTokens": 39689,
+    "outputTokens": 1535
+  },
+  "costUsd": 0.0047364,
+  "failures": [],
+  "passed": true
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Counter, the café co-pilot</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="brand">
+        <span class="wordmark">Counter</span>
+        <span class="tagline">the back office for your café</span>
+      </div>
+      <span id="mode-badge" class="badge" title="Which model is answering">…</span>
+    </header>
+
+    <main class="layout">
+      <div class="desk">
+        <article id="brief" class="note" aria-labelledby="brief-title" hidden>
+          <header class="note-head">
+            <h1 id="brief-title" class="note-title">Morning note</h1>
+            <time id="brief-date" class="note-date"></time>
+          </header>
+          <div id="brief-body"></div>
+        </article>
+
+        <section class="ask" aria-label="Ask about your café">
+          <form id="composer" class="composer" autocomplete="off">
+            <label for="question" class="visually-hidden">Ask about your café</label>
+            <textarea id="question" name="question" rows="1" placeholder="Ask about your café…" maxlength="2000"></textarea>
+            <button id="send" type="submit" class="ask-button">Ask</button>
+          </form>
+          <p class="composer-hint">Answers use your café's own numbers. Changes wait in your approvals until you say yes.</p>
+          <div id="suggestions" class="suggestions" aria-label="Try asking"></div>
+        </section>
+
+        <section class="log-wrap" aria-label="Your questions and answers">
+          <ol id="log" class="log" aria-live="polite"></ol>
+        </section>
+      </div>
+
+      <aside class="queue" aria-labelledby="queue-title">
+        <h2 id="queue-title" class="queue-title">Waiting for your approval <span id="queue-count" class="count"></span></h2>
+        <p id="queue-empty" class="queue-empty">Nothing waiting. Price changes and review replies land here for you to approve or reject.</p>
+        <ol id="queue-list" class="queue-list" aria-live="polite"></ol>
+        <section class="reviews" aria-labelledby="reviews-title">
+          <h3 id="reviews-title" class="autopilot-title">New reviews</h3>
+          <p id="reviews-empty" class="queue-empty">No new reviews since you opened Counter.</p>
+          <ol id="reviews-list" class="reviews-list" aria-live="polite"></ol>
+          <form id="simulate" class="simulate" autocomplete="off">
+            <p class="simulate-title">Simulate a new review</p>
+            <label for="sim-sample">Example</label>
+            <select id="sim-sample"></select>
+            <label for="sim-author">Reviewer</label>
+            <input id="sim-author" maxlength="80" />
+            <label for="sim-rating">Stars</label>
+            <select id="sim-rating">
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <label for="sim-text">Text</label>
+            <textarea id="sim-text" rows="2" maxlength="2000"></textarea>
+            <button id="sim-send" type="submit" class="ap-save">Send it in</button>
+          </form>
+        </section>
+        <section id="autopilot" class="autopilot" aria-label="Autopilot for review replies" hidden></section>
+      </aside>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

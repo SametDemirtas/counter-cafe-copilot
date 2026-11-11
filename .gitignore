@@ -1,0 +1,10 @@
+node_modules/
+coverage/
+*.log
+.env
+.env.*
+.DS_Store
+eval-report.dry-run.*
+*.tmp-*
+judge-check.dry-run.*
+routing-report.dry-run.*
